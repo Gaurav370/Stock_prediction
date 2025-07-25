@@ -1,8 +1,48 @@
-# Stock_prediction
+#Stock Prediction Using Machine Learning
+This project explores various machine learning and deep learning techniques to forecast stock market performance using historical financial data, technical indicators, and sentiment analysis. It was developed as part of the M.Tech Dissertation at BITS Pilani.
 
-Stock market performance prediction has been an area with much research interest from investors and analysts, as well as financial institutions. This is because accurate stock price forecasting offers many rewards, such as better investment strategies and better risk management. This dissertation analyses whether stock performance can be predicted through various techniques and models including traditional financial indicators, machine learning algorithms, and deep learning approaches.
-The study discusses the complexity of the stock market, which can be attributed to the economic data, corporate performance, investors' sentiments, and several macroeconomic events underlying the movement of stock prices in the stock market. The review of existing prediction models with their strengths and limitations, so such student will focus using machine learning (ML) and deep learning (DL) algorithms in predicting stock prices. The aim here is to analyze and compare how effective these advanced methods are in the prediction of the trends in the stock market and whether these models outperform the traditional statistical methods.
-The research collects data from several sources, including the historical stock prices information, the financial reports, the news sentiment, and most of the economic indicators. Various types of pre- processes including normalization, outlier detection, and feature selection are applied to make handling the raw data. The study has several machine learning techniques such as decision trees, support vector machines, random forest classifiers, and neural networks incorporated into it. A more advanced machine learning technique that is used in this work comes in the form of long short-term memory, given its effectiveness in modelling temporal data characteristics, enabling it to capture more sequential events in stock analysis and behavior.
-Model evaluation is done through a variety of metrics like accuracy, mean squared error (MSE), and R-squared, with cross-validation being used to validate generalization of the models. The results reflect that deep learning models, particularly those of LSTM, often perform at a very high rate in predicting the price trends of stocks as compared to other traditional machine learning models. It also states how significant it is to apply sentiment analysis that relates to news articles and social media data as among key price-moving inputs.
-Beyond performance of the model, the thesis addresses notions of feature engineering: Selection of input variables and impact on prediction accuracy. A key finding is that while technical indicators like moving averages and momentum oscillators are useful, theircombination with macroeconomic variables and sentiment data represents a fuller view of stock price performance prediction.
-The research ends with the discussion of the practical implications derived from the research concerning investors and financial institutions. While promising, there were still issues about managing the inherent volatility and randomness in the financial markets. Strength for future research lies in improving robustness of models and investigating hybrid techniques incorporating various machine learning and statistical candidates into even more accurate predictors.
+🔍 Objective
+Analyze historical stock data to uncover key patterns and drivers of stock performance.
+
+Design and implement ML/DL models to predict future stock price movements.
+
+Evaluate and compare traditional statistical models with modern ML/DL techniques.
+
+Optimize models for accuracy and robustness in real-world scenarios.
+
+Test predictions against real stock market data.
+
+🧠 Models Used
+ARIMA – For traditional time-series forecasting.
+
+Machine Learning Models – Decision Trees, SVMs, Random Forests.
+
+Deep Learning Models – LSTM (Long Short-Term Memory) neural networks.
+
+⚙️ Key Features
+📊 Data Preprocessing: Cleaning, normalization, outlier detection, and feature selection.
+
+📈 Technical Indicators: Moving Averages (SMA, EMA), Momentum Oscillators.
+
+🗞️ Sentiment Analysis: Integration of news and social media signals.
+
+🔄 Model Optimization: Grid Search, Random Search, and Bayesian Optimization.
+
+✅ Model Evaluation: RMSE, MSE, R² Score, and Cross-Validation.
+
+🧪 Results
+LSTM models showed superior performance in capturing long-term trends.
+
+ARIMA performed better on short-term but failed on long-term predictions.
+
+Proper data preprocessing and feature engineering significantly boosted model accuracy.
+
+Combining technical indicators with macroeconomic and sentiment data yielded best results.
+
+📚 References
+Azure Databricks Cookbook by Phani Raj & Vinod Jaiswal
+
+Hands-On Machine Learning for Algorithmic Trading by Stefan Jansen
+
+Deep Learning for Time Series Forecasting by Jason Brownlee
+
